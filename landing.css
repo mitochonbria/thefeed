@@ -1,0 +1,15 @@
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.button {
+    text-align: center;
+}
+.gif-button {
+    width: 500px; 
+    cursor: pointer;
+}

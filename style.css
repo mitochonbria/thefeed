@@ -1,0 +1,80 @@
+body {
+    background: url('img/bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+@font-face {
+    font-family: 'Darumadrop One';
+    src: url('MainFont/DarumadropOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gaegu';
+    src: url('BodyFont/Gaegu/Gaegu-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gaegu Bold';
+    src: url('BodyFont/Gaegu/Gaegu-Bold.ttf') format('truetype');
+}
+p {
+    font-family: 'Gaegu', arial;
+}
+h1 {
+    font-family: 'Darumadrop One', sans-serif;
+    font-size: 400%;
+    color: #bc1823;
+    margin: 4%;
+}
+h2 {
+    font-family: 'Gaegu Bold', Arial;
+    font-size: 200%;
+}
+h3 {
+    font-family: 'Darumadrop One', sans-serif;
+    color: #bc1823;
+    font-size: 300%;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0); 
+    width: 10%;
+}
+.gallery {
+    width: 65%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-height: 100vh;
+    position: relative;
+    right: 0%;
+}
+.polaroid {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin: 40px 0;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 10px;
+    text-align: center;
+}
+.polaroid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.polaroid p {
+
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
